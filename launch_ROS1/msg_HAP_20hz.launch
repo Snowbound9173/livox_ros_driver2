@@ -13,7 +13,7 @@
 	<arg name="cmdline_arg" default="$(arg bd_list)"/>
 	<arg name="msg_frame_id" default="livox_frame"/>
 	<arg name="lidar_bag" default="false"/>
-	<arg name="imu_bag" default="true"/>
+	<arg name="imu_bag" default="false"/>
 	<!--user configure parameters for ros end--> 
 
 	<param name="xfer_format" value="$(arg xfer_format)"/>
