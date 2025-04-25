@@ -27,7 +27,8 @@
     {
       "ip" : "192.168.1.100",
       "pcl_data_type" : 1,
-      "pattern_mode" : 0,
+      "pattern_mode" : 1,
+      "blind_spot_set" : 150,
       "extrinsic_parameter" : {
         "roll": 0.0,
         "pitch": 0.0,
