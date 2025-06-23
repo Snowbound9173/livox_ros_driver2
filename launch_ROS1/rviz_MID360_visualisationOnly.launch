@@ -1,0 +1,7 @@
+<launch>
+    <!-- Node to convert CustomMsg to PointCloud2 -->
+    <node pkg="livox_ros_driver2" type="livox_converter.py" name="livox_converter" output="screen"/>
+
+    <!-- RViz pointing to your RSS.rviz config file -->
+    <node pkg="rviz" type="rviz" name="rviz_livox" args="-d $(find livox_ros_driver2)/config/RSS.rviz" required="true"/>
+</launch>
